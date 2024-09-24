@@ -2703,6 +2703,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9c0d25589da967438698b5e61c4e9ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadingScreen: {fileID: 99861274}
+  inputLoadingBar: {fileID: 2040749856}
+  speedValue: 32
 --- !u!4 &591296551
 Transform:
   m_ObjectHideFlags: 0

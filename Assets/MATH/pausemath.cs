@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseMenuMath : MonoBehaviour
+public class pausemath : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
 

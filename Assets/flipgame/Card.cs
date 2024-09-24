@@ -17,7 +17,7 @@ public class Card : MonoBehaviour
     private bool coroutineAllowed, facedUp;
 
     // Reference to the flipcontrol to manage game state
-    private flipcontrol gameController;
+    private Flipcontrol gameController;
 
     void Start()
     {
@@ -28,7 +28,7 @@ public class Card : MonoBehaviour
         facedUp = false;
 
         // Find the flipcontrol in the scene
-        gameController = FindObjectOfType<flipcontrol>();
+        gameController = FindObjectOfType<Flipcontrol>();
     }
 
     // Method to set the card symbol programmatically

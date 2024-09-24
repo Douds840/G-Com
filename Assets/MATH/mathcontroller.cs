@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class AnswerCheck : MonoBehaviour
+public class mathcontroller : MonoBehaviour
 {
     [System.Serializable]
     public class ButtonData
